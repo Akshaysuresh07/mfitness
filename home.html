@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mfitness</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo-name">MFitness</div>
+        <div>
+            <ul class="list-items">
+                <li class="item"><a href="/">Home</a></li>
+                <li class="item"><a href="#">Service</a></li>
+                <li class="item"><a href="#">About</a></li>
+                <li class="item"><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <section id="home">
+        <div class="contents">
+            <h1 class="h-primary">Welcome to <span>MFitness</span> </h1>
+            <p>There is no tomorrow do it now !</p>
+            <p>No Excuses allowed !!</p>
+            <button class="btn">Details</button>
+        </div>
+    </section>
+    <section class="services" id="service">
+        <h1 class="center h-secondary extra">Our services</h1>
+        <div id="services">
+            <div class="card card1 center">
+                <img src="./cardio.jpg" alt="Cardio.png">
+                <h2>Cardio</h2>
+                <p>Aerobic exercise is physical exercise of low to high intensity that depends primarily on the aerobic
+                    energy-generating process."Aerobic" is defined as "relating to, involving, or requiring free oxygen
+                    which usually refers to the use of oxygen to adequately meet energy demands during exercise via
+                    aerobic metabolism.</p><br>
+                <a href="/">Details</a>
+            </div>
+            <div class="card card2 center">
+                <img src="./weightlift.jpg" alt="weightlift.png">
+                <h2>Weight Lifting </h2>
+                <p>Cardiovascular exercise that elevate the heart rate and increase oxygen consumption. It improves
+                    cardiovascular health by strengthening the heart and lungs, and lowering blood pressure. Regular
+                    cardio can boost endurance, aid in weight loss, reduce the risk of chronic diseases, and improve
+                    overall well-being.</p><br>
+                <a href="/">Details</a>
+            </div>
+            <div class="card card3 center">
+                <img src="./yoga.jpg" alt="">
+                <h2>Yoga</h2>
+                <p>Yoga is a holistic practice originating from ancient India, combining physical postures, breath
+                    control, meditation, and relaxation techniques. It promotes physical strength, flexibility, and
+                    balance, while also nurturing mental and emotional well-being. Regular yoga practice can reduce
+                    stress, enhance concentration, and foster overall physical and mental health.</p><br>
+                <a href="/">Details</a>
+            </div>
+        </div>
+    </section>
+ 
+
+    <section class="grid">
+        <div class="calci">
+            <h2><span>BMI</span> Calculator</h2>
+        </div>
+
+        <div class="center bmi">
+
+
+            <input type="text" id="height" placeholder="height (in cm)">
+
+            <input type="text" id="weight" placeholder="weight (in kg)">
+            <div class="center">
+                <button class="btn" style="margin-top: 15px;" onclick="calculator()">Calculate</button>
+            </div>
+            <div id="result" class="center"></div>
+        </div>
+    </section>
+
+
+
+    <!-- SECTION ABOUT -->
+    <section class="section-about" id="about">
+        <div class="about-box containerab">
+            <div class="about-box__content">
+                <h2 class="heading--2">
+                    About <span class="yellow">M</span>Fitness
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
+                    dolor perferendis repellat ipsam fugiat dolorum possimus, modi ut
+                    est saepe tempora earum. Consectetur blanditiis voluptatibus,
+                    molestias explicabo tempora quae facilis.
+                </p>
+                <button class="btn">Read More</button>
+            </div>
+
+            <div class="fig">
+                <img src="./about.jpg" alt="about-image-one" />
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <div class="container">
+        <h1>Welcome to the <span>MFitness</span> </h1>
+
+        <form>
+            <input type="text" name="name" id="name" placeholder="Enter your name here...">
+            <input type="text" name="age" id="age" placeholder="Enter your age here...">
+            <input type="text" name="gender" id="gender" placeholder="Enter your gender here...">
+            <textarea name="address" id="address" cols="30" rows="5"
+                placeholder="Enter your address here..."></textarea>
+            <textarea name="more" id="more" cols="30" rows="5"
+                placeholder="Enter more about yourself here..."></textarea>
+            <button class="btn1">Sumbit</button>
+        </form>
+    </div>
+
+    <footer>Copyright © reserved - Mfitness</footer>
+</body>
+<script src="./app.js"></script>
+</html>
