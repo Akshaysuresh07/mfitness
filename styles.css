@@ -70,7 +70,7 @@ a:hover {
 #home::before {
     content: "";
     position: absolute;
-    background: url(./header-img.jpg)no-repeat center center/cover;
+    background: url(./images/header-img.jpg)no-repeat center center/cover;
     
 
     background-attachment: fixed;
@@ -183,7 +183,7 @@ span {
 
 .grid{
     
-    background-image: url(./bmic1.jpg);
+    background-image: url(./images/bmic1.jpg);
     background-size: cover;
     overflow: hidden;
     height: 100vh;
@@ -473,7 +473,7 @@ footer {
 
     width: 100%;
 
-    background: url('./bg1.jpg') no-repeat center center/cover;
+    background: url('./images/bg1.jpg') no-repeat center center/cover;
     background-position: fixed;
     z-index: -2;
     opacity: 0.89;
